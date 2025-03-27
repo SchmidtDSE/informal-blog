@@ -2,7 +2,7 @@
 title: "Generating an executable from your python app or script"
 date: "2025-03-26"
 author:
-		- name: "Felipe Montealegre-Mora"
+  - name: "Felipe Montealegre-Mora"
 ---
 
 When you run your analysis in python, under the hood your computer is translating that script into machine code---essentially, into a binary file that then gets executed by the computer.
