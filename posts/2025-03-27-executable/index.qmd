@@ -7,8 +7,8 @@ author:
 
 When you run your analysis in python, under the hood your computer is translating that script into machine code---essentially, into a binary file that then gets executed by the computer.
 One could say, an *executable* file.
-However, this exectuable file is never actually saved in your file system (as opposed to, e.g., compiling a piece of C++ code, in which the typical compiler's output is a binary machine code file). 
-In Python's case, he executable "file," the machine code instructions, are generated dynamically and immediately exectued while the script is run, and once these instructions are not needed anymore they are erased.
+However, this executable file is never actually saved in your file system (as opposed to, e.g., compiling a piece of C++ code, in which the typical compiler's output is a binary machine code file).
+In Python's case, he executable "file," the machine code instructions, are generated dynamically and immediately executed while the script is run, and once these instructions are not needed anymore they are erased.
 
 :::{.callout-note}
 Here we should say that reality is never so simple: in many cases, intermediate bytecode, ie. `.pyc`, files are generated. These are not binary files, but they are an in-between step between Python and machine code. But for our purpose here, this won't really affect the mental picture I'm trying to paint here.
