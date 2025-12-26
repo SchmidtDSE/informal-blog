@@ -4,6 +4,7 @@ listing:
   contents:
     - "posts/**/index.md"
     - "posts/**/index.qmd"
+  sort: "date desc"
 ---
 
 This is a Quarto website.
